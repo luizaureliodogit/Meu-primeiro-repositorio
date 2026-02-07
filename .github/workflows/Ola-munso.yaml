@@ -7,8 +7,8 @@ jobs:
      runs-on: ubuntu-latest
 
     steps:
-      name: Checkout
+    - name: Checkout
       uses: actions/checkout@v2
 
-      name: Ola, Mundo!
+    - name: Ola, Mundo!
       run: echo "Ola, Mundo!"
